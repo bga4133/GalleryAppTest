@@ -1,0 +1,59 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerApp {
+  justify-content: space-between;
+  width: 100%;
+  height: 16vh;
+}
+.containerLogo {
+  width: 16%;
+  justify-content: space-around;
+}
+.containerLogo div {
+  width: 20%;
+  height: 7vh;
+  background: #614bff;
+  border-radius: 7px;
+  color: white;
+}
+.usernameContainer {
+  width: 50%;
+  margin: 3%;
+  display: flex;
+  justify-content: flex-end;
+}
+.usernameContainer div {
+  width: 50px;
+  height: 7vh;
+  background: #614bff;
+  border-radius: 50px;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media screen and (max-width: 1200px) {
+  .headerApp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 802px) {
+  .headerApp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerApp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .headerApp {
+    display: none;
+  }
+}

@@ -1,0 +1,40 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.animation {
+  animation: pulse 4s infinite;
+}
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.logo {
+  width: 200px;
+}
+
+.app {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .app {
+    padding: 10px 0;
+  }
+}

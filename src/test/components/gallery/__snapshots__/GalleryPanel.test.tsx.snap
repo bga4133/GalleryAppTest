@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expectedData render the component 1`] = `
+<div>
+  <div
+    class="panel__gallery"
+    data-testid="imgId"
+  >
+    <div
+      class="loading__modal"
+    >
+      <p
+        class="animation"
+      >
+        Loading
+      </p>
+    </div>
+  </div>
+</div>
+`;

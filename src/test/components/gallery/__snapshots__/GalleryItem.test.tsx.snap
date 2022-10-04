@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in <GalleryItem /> render the component 1`] = `
+<div>
+  <img
+    alt="1664898372517"
+    class="panel__gallery__img"
+    src="https://picsum.photos/300/300?random=0.3833849915413208"
+  />
+</div>
+`;
